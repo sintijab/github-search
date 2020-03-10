@@ -1,0 +1,15 @@
+{
+  "parser": "babel-eslint",
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "no-undef": [ 1 ],
+    "max-len": ["error", { "code": 90, "ignoreComments": true }],
+    "max-params": ["error", 3],
+    "max-nested-callbacks": ["error", 3],
+    "quotes": ["error", "single"],
+    "no-console": "off",
+    "no-inline-comments": "off"
+  }
+}
